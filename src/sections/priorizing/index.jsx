@@ -13,6 +13,7 @@ const Priorizing = () => {
             setMobile(false);
         }
     });
+
     return ( 
             <section id='Priorizing' className={`p-4 flex flex-column justify-content-between align-items-center ${mobile ? 'flex-column p-0' : 'pl-8'}`}>
             <div>
