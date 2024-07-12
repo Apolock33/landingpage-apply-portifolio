@@ -6,6 +6,7 @@ import Priorizing from './sections/priorizing'
 import Coments from './sections/coments'
 import FAQ from './sections/faq'
 import CallToAction from './sections/callToAction'
+import Footer from './components/footer'
 
 const App = () => {
 
@@ -19,6 +20,7 @@ const App = () => {
         <FAQ />
       </Header>
       <CallToAction />
+      <Footer />
     </PrimeReactProvider>
   )
 }
